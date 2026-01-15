@@ -111,6 +111,13 @@ src/
 
 ```
 
+## Screenshots
+
+![Screenshot 1](public/screen1.jpg)
+![Screenshot 1](public/screen2.jpg)
+![Screenshot 1](public/screen3.jpg)
+![Screenshot 1](public/screen4.jpg)
+
 ---
 
 ## Assignment Objective
