@@ -10,11 +10,11 @@ The goal of this assignment is to showcase practical React skills, API integrati
 
 ## Features
 
-* Fetches live artwork data from a public REST API
-* Displays data using PrimeReact DataTable
-* Server-side pagination
-* Persistent row selection across pages
-* Clean and responsive UI
+- Fetches live artwork data from a public REST API
+- Displays data using PrimeReact DataTable
+- Server-side pagination
+- Persistent row selection across pages
+- Clean and responsive UI
 
 ---
 
@@ -38,22 +38,22 @@ https://api.artic.edu/api/v1/artworks?page=1
 
 The table displays the following artwork fields:
 
-* Title
-* Place of Origin
-* Artist Display
-* Inscriptions
-* Date Start
-* Date End
+- Title
+- Place of Origin
+- Artist Display
+- Inscriptions
+- Date Start
+- Date End
 
 ---
 
 ## Tech Stack
 
-* React
-* Vite
-* PrimeReact
-* Bun (package manager)
-* JavaScript / TypeScript
+- React
+- Vite
+- PrimeReact
+- Bun (package manager)
+- JavaScript / TypeScript
 
 ---
 
@@ -61,7 +61,7 @@ The table displays the following artwork fields:
 
 ### Prerequisites
 
-* Bun installed on your system
+- Bun installed on your system
 
 ### Steps
 
@@ -90,9 +90,9 @@ The application will be available at `http://localhost:5173`.
 
 ## Implementation Notes
 
-* Server-side pagination is implemented using the API `page` parameter.
-* Selected rows are stored in state to ensure persistence when navigating between pages.
-* PrimeReact DataTable is configured in lazy mode to handle pagination efficiently.
+- Server-side pagination is implemented using the API `page` parameter.
+- Selected rows are stored in state to ensure persistence when navigating between pages.
+- PrimeReact DataTable is configured in lazy mode to handle pagination efficiently.
 
 ---
 
@@ -104,6 +104,8 @@ src/
 ├── App.tsx
 ├── assets
 │   └── react.svg
+├── components
+│   └── TableData.tsx
 ├── index.css
 └── main.tsx
 
@@ -115,15 +117,14 @@ src/
 
 This assignment evaluates:
 
-* React fundamentals
-* API consumption and pagination
-* State management
-* UI component integration
-* Code structure and readability
+- React fundamentals
+- API consumption and pagination
+- State management
+- UI component integration
+- Code structure and readability
 
 ---
 
 ## License
 
 This project is created for internship evaluation purposes only.
-
